@@ -22,9 +22,9 @@ class School
   end 
   
   def sort
-    @roster.collect{|k,v|v.sort}
+    @roster.each{|k,v|@roster[k]=v.sort}
     # @roster.values.each{|names|names.sort}
-    # @roster
+    @roster
   end 
   # def roster=(roster)
   #   @roster = roster
