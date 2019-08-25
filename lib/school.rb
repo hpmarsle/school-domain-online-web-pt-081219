@@ -17,8 +17,8 @@ class School
     end 
   end 
   
-  def grade
-    @roster[grade]
+  def grade(nth_grade)
+    @roster[nth_grade]
   end 
   # def roster=(roster)
   #   @roster = roster
