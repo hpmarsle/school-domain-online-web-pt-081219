@@ -22,8 +22,9 @@ class School
   end 
   
   def sort
-    @roster.values.each{|names|names.sort}
-    @roster
+    @roster.collect{|k,v|v.sort}
+    # @roster.values.each{|names|names.sort}
+    # @roster
   end 
   # def roster=(roster)
   #   @roster = roster
