@@ -20,6 +20,10 @@ class School
   def grade(nth_grade)
     @roster[nth_grade]
   end 
+  
+  def sort
+    @roster.values.collect{|names|names.sort}
+  end 
   # def roster=(roster)
   #   @roster = roster
   # end 
