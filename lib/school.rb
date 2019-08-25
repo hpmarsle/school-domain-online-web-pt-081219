@@ -23,6 +23,7 @@ class School
   
   def sort
     @roster.values.collect{|names|names.sort}
+    
   end 
   # def roster=(roster)
   #   @roster = roster
